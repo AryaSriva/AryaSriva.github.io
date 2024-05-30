@@ -5,6 +5,9 @@ body {
 
 #welcomeMessage {
     font-size:40px;
+    max-width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #navbar {
@@ -19,4 +22,16 @@ body {
     margin-right:auto;
     /* position:fixed;
     bottom:0; */
+}
+
+#intro {
+    max-width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#contactInfo {
+    max-width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
 }
