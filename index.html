@@ -4,28 +4,29 @@
 <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav id="navbar">
-        <!-- <a href="index.html">Home</a> -->
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <div id="navbar">
+        <nav>               
+            <button><a href="#about">About</a></button>
+            <button><a href="#contact">Contact</a></button>
+        </nav>
+    </div>
     <section>
         <article>
             <p id="welcomeMessage">
-                Hey there! Welcome to my Website!
+                Hey there!<br> Welcome to my Website!
             </p>
         </article>
     </section>
     <a name="about">
         <section>
             <article>
-                <p>I am Aryaman Srivastava, but you can just call me Ary! I am currently a CS student at Stevens Institute of
+                <p id="intro">I am Aryaman Srivastava, but you can just call me Ary! I am currently a CS student at Stevens Institute of
                     Technology.</p>
-                <p>I am currently looking for internship opportunities for Summer 2024. I've been programming for a little over
+                <p id="">I am currently looking for internship opportunities for Summer 2024. I've been programming for a little over
                     3 years now, and have had the opportunity and pleasure to learn several programming languages, including:
                 </p>
                 <ul>
@@ -56,7 +57,7 @@
             </article>
         </section>
     </a>
-    <footer>Aryaman Srivastava @ Stevens Institute of Technology</footer>
+    <div id="footer"><footer>Aryaman Srivastava @ Stevens Institute of Technology</footer></div>
 </body>
 <script src="/public/js/client.js"></script>
 
