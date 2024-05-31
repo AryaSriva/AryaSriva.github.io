@@ -32,6 +32,12 @@ body {
     margin-right:auto;
 }
 
+#portfolio {
+    max-width: fit-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 #contactInfo {
     max-width: fit-content;
     margin-left:auto;
@@ -68,4 +74,19 @@ button {
     box-shadow:slategray;
     width:50%;
     height: 100%;
+}
+
+ul {
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding:0;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    display: flexbox;
 }
