@@ -8,6 +8,7 @@ body {
     max-width: fit-content;
     margin-left:auto;
     margin-right:auto;
+    text-shadow: 3px 5px 2px #474747;
 }
 
 #navbar {
@@ -15,7 +16,7 @@ body {
     height:50px;
     position:sticky;
     top:0;
-    background-color: antiquewhite;
+    background-color: transparent;
 }
 
 #footer {
@@ -27,12 +28,15 @@ body {
 }
 
 #intro {
-    max-width: fit-content;
+    margin-top:50%;
     margin-left:auto;
     margin-right:auto;
+    align-items: center;
+    text-align: center;
 }
 
 #portfolioDiv {
+    margin-top:50%;
     max-width: 100%;
     margin-left:auto;
     margin-right:auto;
@@ -41,6 +45,7 @@ body {
 }
 
 #contactInfo {
+    margin-top:50%;
     max-width: 100%;
     margin-left:auto;
     margin-right:auto;
@@ -52,6 +57,11 @@ img {
     width:25px;
     height:25px;
 } 
+
+#profilePic {
+    width:500px;
+    height:500px;
+}
 
 h1 {
     margin-left:auto;
@@ -76,15 +86,16 @@ nav {
 }
 button {
     background-color: transparent;
-    box-shadow:slategray;
+    border-color: transparent;
     width: 100%;
     height: 100%;
+    font-size:25px;
+    color:slategray;
 }
 
 .navButton {
-    background-color: transparent;
-    box-shadow:slategray;
-    width:50%;
+    background-color: antiquewhite;
+    width:25%;
     height: 100%;
 }
 
