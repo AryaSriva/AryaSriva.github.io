@@ -107,6 +107,15 @@ li {
     margin-right:10px;
 }
 
+#startButton {
+    color:slategray;
+    background-color:antiquewhite;
+    width:10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:25%;
+}
+
 /* #libraries {
     margin-left:auto;
     margin-right:auto;

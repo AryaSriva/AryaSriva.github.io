@@ -1,7 +1,14 @@
 (function ($) {
-  $("#welcomeMessage").click(function () {
+  $("nav").hide();
+  $("section").hide();
+  $("footer").hide();
+  $("#startButton").click(function () {
     let intro = new Audio("dependencies/audio/intro.mp3");
     intro.play();
+    $(this).hide();
+    $("nav").delay(16000).fadeIn();
+    $("footer").delay(8000).fadeIn();
+    $("section").delay(12000).fadeIn();
   });
   $("#welcomeMessage").hover(
     function () {
